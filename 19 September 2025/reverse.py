@@ -1,13 +1,13 @@
 a=int(input("Enter a number: "))
 temp=a
-n1=0 #digit count
+count=0 #digitcount
 while temp>0:
     temp=temp//10
-    n1=n1+1
+    count=count+1
 temp=a
 rev=0
-for i in range (n1):
-    n2=temp%10
-    rev = rev*10+n2
+for i in range (count):
+    rev = rev*10+temp%10
     temp=temp//10
+
 print("Reverse of ", a ," is ",rev)
