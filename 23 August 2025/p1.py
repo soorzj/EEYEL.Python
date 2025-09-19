@@ -1,0 +1,12 @@
+a=int(input("Enter 1st Number: "))
+b=int(input("Enter 2nd Number: "))
+sum=a+b
+diff=a-b
+product=a*b
+quotient=a/b
+reminder=a%b
+print("Sum of 2 no:s is = " + str(sum))
+print("Difference of 2 no:s is = " + str(diff))
+print("Product of 2 no:s is = " + str(product))
+print("Quotient of 2 no:s is = " + str(quotient))
+print("Reminder of division is = " + str(reminder))
