@@ -1,0 +1,11 @@
+## Questions
+1.
+2.
+3. print the following pattern
+```
+   *
+ *   *
+*     *
+```
+***
+### ⚠️ needs to be updated
