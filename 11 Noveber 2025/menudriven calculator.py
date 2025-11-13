@@ -1,7 +1,7 @@
 def multiply(a,b):
     return a * b
 def divide(a,b):
-    return a/b
+    return a//b, a%b
 def add(a,b):
     return a + b
 def subtract(a,b):
@@ -20,6 +20,7 @@ while choice<5 :
     elif choice==3:
         print("The product is:", multiply(a,b))
     elif choice==4:
-        print("The quotient is:", divide(a,b))
+        ans=divide(a,b)
+        print("The quotient is:", ans[0], "with a remainder of", ans[1])
     else:
         print("Invalid choice")
