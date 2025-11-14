@@ -8,4 +8,5 @@
 5. Check if the String is palindrome of a string using recursion
 6. Find the sum of first n natural numbers using recursion
 7. Find the sum of elements of a list using recursion
-8. Input a string and a pattern, using recursion, find if the pattern occurs in the string or not
+8. Find the product of 2 numbers (multiplication = repetitive summation) using recursion
+9. Input a string and a pattern, using recursion, find if the pattern occurs in the string or not
